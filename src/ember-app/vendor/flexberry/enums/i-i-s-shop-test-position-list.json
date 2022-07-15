@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.ShopTest",
+  "className": "PositionList",
+  "enumObjects": {
+    "Storekeeper": "",
+    "Manager": ""
+  }
+}

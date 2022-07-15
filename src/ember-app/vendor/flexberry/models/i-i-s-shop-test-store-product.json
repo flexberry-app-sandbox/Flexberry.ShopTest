@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISShopTestStoreProduct",
+  "modelName": "i-i-s-shop-test-store-product",
+  "className": "StoreProduct",
+  "nameSpace": "IIS.ShopTest",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "amount",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": false,
+      "name": "product",
+      "relatedTo": "i-i-s-shop-test-product",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "storeHouse",
+      "relatedTo": "i-i-s-shop-test-store-house",
+      "inverse": "storeProduct"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "StoreProductE",
+      "modelName": "i-i-s-shop-test-store-product",
+      "attrs": [
+        {
+          "name": "amount",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Product",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "~",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Товар",
+          "name": "product",
+          "relatedTo": "i-i-s-shop-test-product",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

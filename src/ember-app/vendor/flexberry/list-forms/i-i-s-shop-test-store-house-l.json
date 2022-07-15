@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-shop-test-store-house-e",
+  "editForm": "i-i-s-shop-test-store-house-e",
+  "external": false,
+  "caption": "Склады",
+  "name": "IISShopTestStoreHouseL",
+  "className": "StoreHouseL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shop-test-store-house",
+      "modelProjection": "StoreHouseL"
+    }
+  ]
+}

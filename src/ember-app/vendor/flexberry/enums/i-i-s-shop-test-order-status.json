@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.ShopTest",
+  "className": "OrderStatus",
+  "enumObjects": {
+    "New": "Новый",
+    "Paid": "Оплаченный",
+    "Canceled": "Отменённый"
+  }
+}

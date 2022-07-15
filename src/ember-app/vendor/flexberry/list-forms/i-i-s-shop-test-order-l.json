@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-shop-test-order-e",
+  "editForm": "i-i-s-shop-test-order-e",
+  "external": false,
+  "caption": "Заказы",
+  "name": "IISShopTestOrderL",
+  "className": "OrderL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shop-test-order",
+      "modelProjection": "OrderL"
+    }
+  ]
+}

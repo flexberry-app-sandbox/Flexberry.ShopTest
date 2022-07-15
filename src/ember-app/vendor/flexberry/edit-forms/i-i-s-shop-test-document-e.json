@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Document",
+  "name": "IISShopTestDocumentE",
+  "className": "DocumentE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-shop-test-document",
+      "modelProjection": "DocumentE"
+    }
+  ]
+}

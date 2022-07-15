@@ -1,0 +1,11 @@
+﻿{
+  "nameSpace": "IIS.ShopTest",
+  "className": "InvoiceStatus",
+  "enumObjects": {
+    "New": "",
+    "Issued": "",
+    "Paused": "",
+    "Ready": "",
+    "Shipped": ""
+  }
+}
